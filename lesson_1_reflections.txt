@@ -18,6 +18,10 @@ git add   file
 git reset file
 git commit or git commit -m "Commit message"
 
+git diff workingDir stageArea
+git diff -- staged stageArea commit1
+git diff commit1 commit2
+
 Changing background color
 If you prefer the background color of Git Bash to be something other than black,
 Menu->Defaults and in the Colors tab select Screen Background(white)/Screen Text(black).
