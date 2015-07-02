@@ -9,11 +9,14 @@ Menu->Properties and in the Options tab select QuickEdit Mode.
 Commands:
 git --version
 git log
-git diff
-git checkout
-git clone
+git diff  id1  id2
+git checkout id
+git clone //repository
 git init
 git status
+git add   file
+git reset file
+git commit or git commit -m "Commit message"
 
 Changing background color
 If you prefer the background color of Git Bash to be something other than black,
